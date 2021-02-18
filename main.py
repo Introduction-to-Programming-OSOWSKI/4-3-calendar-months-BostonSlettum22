@@ -1,1 +1,15 @@
-#WRITE YOUR CODE IN THIS FILE
+def calendar(m):
+
+
+    months = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"]
+
+
+    for i in range(0,len(months)):
+        if m == months[i]:
+            return i + 1 
+
+    return m + " is not a month"
+
+
+print(calendar("december"))
+
